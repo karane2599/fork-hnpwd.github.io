@@ -20,7 +20,7 @@
   :hnuid "beast-hacker"
   :bio "Makes small things on the internet.")
 
-  (:name "Captain's Quarters"
+ (:name "Captain's Quarters"
   :site "https://quarters.captaintouch.com/"
   :feed "https://quarters.captaintouch.com/blog/posts.xml"
   :hnuid "capitain"
@@ -33,6 +33,13 @@
   :about "https://chrismorgan.info/about/"
   :hnuid "chrismorgan"
   :bio "Software developer, dealing mostly with web things.")
+
+ (:name "Gavin D. Howard"
+  :site "https://gavinhoward.com/"
+  :feed "https://gavinhoward.com/index.xml"
+  :about "https://gavinhoward.com/about/"
+  :hnuid "gavinhoward"
+  :bio "Recovering C programmer with many interests.")
 
  (:name "Jeff Geerling"
   :site "https://www.jeffgeerling.com/"
@@ -131,6 +138,12 @@
   :blog "https://tjmorley.com/articles.html"
   :hnuid "morleytj"
   :bio "Software developer and scientist at the Center for Digital Genomic Medicine.")
+
+ (:name "Tony Alicea"
+  :site "https://tonyalicea.dev/"
+  :feed "https://tonyalicea.dev/feed/feed.xml"
+  :hnuid "TonyAlicea10"
+  :bio "Udemy and Pluralsight author, conference speaker.  Writes about AI, dev, and UX.")
 
  (:name "Xe Iaso"
   :site "https://xeiaso.net/"
