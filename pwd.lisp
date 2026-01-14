@@ -13,6 +13,12 @@
   :hnuid "xorvoid"
   :bio "Writes about low-level programming and mathematics.")
 
+  (:name "Captain's Quarters"
+  :site "https://quarters.captaintouch.com/"
+  :feed "https://quarters.captaintouch.com/blog/posts.xml"
+  :hnuid "capitain"
+  :bio "Palm-OS game dev.  Ramblings about retro-tech and other nostalgia.")
+
  (:name "Chris Morgan"
   :site "https://chrismorgan.info/"
   :blog "https://chrismorgan.info/blog/"
@@ -84,12 +90,6 @@
   :now "https://susam.net/now"
   :hnuid "susam"
   :bio "Creator of Emacs devil-mode.  Writes about technology and mathematics.")
-
-  (:name "Captain's Quarters"
-  :site "https://quarters.captaintouch.com/"
-  :feed "https://quarters.captaintouch.com/blog/posts.xml"
-  :hnuid "cptqrtrs"
-  :bio "Palm-OS game dev. Ramblings about retro-tech and other nostalgia.")
 
  (:name "Xe Iaso"
   :site "https://xeiaso.net/"
