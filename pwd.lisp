@@ -387,6 +387,12 @@
   :hnuid "TonyAlicea10"
   :bio "Udemy and Pluralsight author, conference speaker.  Writes about AI, dev and UX.")
 
+ (:name "Torrin Leonard"
+  :site "https://torrin.me/"
+  :feed "https://torrin.me/blog"
+  :hnuid "torrinleonard"
+  :bio "Startup founder and developer, built destamatic-ui.")
+
  (:name "WillAbides"
   :site "https://willabides.com/"
   :feed "https://willabides.com/index.xml"
