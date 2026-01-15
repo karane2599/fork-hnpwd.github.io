@@ -113,6 +113,13 @@
   :hnuid "ciju"
   :bio "Building mental models around programming, finance and other topics.")
 
+ (:name "Cookie Engineer"
+  :site "https://cookie.engineer/"
+  :blog "https://cookie.engineer/weblog/index.html"
+  :feed "https://cookie.engineer/weblog/feed.xml"
+  :hnuid "cookiengineer"
+  :bio "Writing and Programming about Cyber Security, Redteaming, and Purpleteaming.")
+
  (:name "Dennis Silin"
   :site "https://marscalendar.space"
   :about "https://marscalendar.space/about.html"
