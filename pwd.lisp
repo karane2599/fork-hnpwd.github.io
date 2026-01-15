@@ -147,12 +147,12 @@
   :hnuid "geerlingguy"
   :bio "Builds large enterprise deployments on private and public cloud infrastructure.")
 
-(:name "Jeffrey Starr"
- :site "https://ztoz.blog/"
- :feed "https://ztoz.blog/index.xml"
- :about "https://ztoz.blog/about/"
- :hnuid "jwstarr"
- :bio "Writes about computing history and computer science.")
+ (:name "Jeffrey Starr"
+  :site "https://ztoz.blog/"
+  :feed "https://ztoz.blog/index.xml"
+  :about "https://ztoz.blog/about/"
+  :hnuid "jwstarr"
+  :bio "Writes about computing history and computer science.")
 
  (:name "John Graham-Cumming"
   :site "https://jgc.org/"
@@ -265,7 +265,7 @@
   :site "https://www.peterbe.com/"
   :feed "https://www.peterbe.com/rss.xml"
   :about "https://www.peterbe.com/about"
-  :hnuid "https://news.ycombinator.com/user?id=peterbe"
+  :hnuid "peterbe"
   :bio "Web developer.  Writes about Python, TypeScript, side projects and technology.")
 
  (:name "Phil Booth"
