@@ -106,13 +106,13 @@
   :hnuid "jgc"
   :bio "Original writer of POPFile.  Member of the board of directors at Cloudflare.")
 
-(:name "John Zanussi"
+ (:name "John Zanussi"
   :site "https://johnzanussi.com/"
   :blog "https://johnzanussi.com/posts"
   :feed "https://johnzanussi.com/rss.xml"
   :about "https://johnzanussi.com/about"
   :hnuid "johnz"
-  :bio "Former front-end dev turned EM writing about the web, hardware & hobby projects.")
+  :bio "Former front-end developer writing about the web, hardware and hobby projects.")
 
  (:name "Joseph Szymborski"
   :site "https://jszym.com/"
