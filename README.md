@@ -20,7 +20,6 @@ Contents
 * [Add Your Website](#add-your-website)
   * [Criteria](#criteria)
   * [Add](#add)
-* [Maintainers Needed](#maintainers-needed)
 * [FAQ](#faq)
 * [Licence](#licence)
 * [Contact](#contact)
@@ -88,20 +87,6 @@ That's it!  Once you create the PR or the issue, we'll take care of
 the rest.
 
 [HN]: HN
-
-
-Maintainers Needed
-------------------
-
-This project needs additional contributors to help review and merge
-pull requests so that the website list maintained in this project can
-grow in a timely manner.
-
-If you are an active member of the Hacker News community with a solid
-history of participation, such as multiple submissions reaching the
-front page and an active comment history, we would be glad to hear
-from you.  Please reach out on [IRC][] so that we can discuss granting
-review and merge access.
 
 
 FAQ

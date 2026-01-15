@@ -44,10 +44,19 @@
 
  (:name "Brajeshwar Oinam"
   :site "https://brajeshwar.com/"
+  :feed "https://brajeshwar.com/feed.xml"
   :about "https://brajeshwar.com/about/"
   :now "https://brajeshwar.com/now/"
   :hnuid "Brajeshwar"
   :bio "Helping build a beautiful & meaningful world for my daughters & their friends.")
+
+ (:name "Bruno Croci"
+  :site "https://crocidb.com/"
+  :feed "https://crocidb.com/index.xml"
+  :about "https://crocidb.com/about/"
+  :now "https://crocidb.com/now/"
+  :hnuid "CrociDB"
+  :bio "Programmer, gamedev and artist who writes about his projects and experiments.")
 
  (:name "Captain's Quarters"
   :site "https://quarters.captaintouch.com/"
@@ -62,6 +71,12 @@
   :about "https://chrismorgan.info/about/"
   :hnuid "chrismorgan"
   :bio "Software developer, dealing mostly with web things.")
+
+(:name "Dennis Silin"
+  :site "https://marscalendar.space"
+  :about "https://marscalendar.space/about.html"
+  :hnuid "d_silin"
+  :bio "Space researcher and software developer.")
 
  (:name "Gavin D. Howard"
   :site "https://gavinhoward.com/"
@@ -147,6 +162,11 @@
   :feed "https://www.grepular.com/rss"
   :hnuid "mike-cardwell"
   :bio "Writes about tech, privacy, security and programming.")
+
+  (:name "Mike Damm"
+  :site "https://mikedamm.com/"
+  :hnuid "mike_d"
+   :bio "Security researcher.  First engineer at OpenDNS.")
 
  (:name "Nicolas Chagnet"
   :site "https://nchagnet.pages.dev/"
