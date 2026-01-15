@@ -1,6 +1,8 @@
 ;;;; HN Personal Websites Directory Generator
 ;;;; ========================================
 
+(require "uiop")
+
 (defun write-file (filename text)
   "Write text to file and close the file."
   (with-open-file (f filename :direction :output :if-exists :supersede)
