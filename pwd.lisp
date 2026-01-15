@@ -16,6 +16,13 @@
   :hnuid "sigil"
   :bio "Art-tech software developer and founder.")
 
+ (:name "Aman Kumar"
+  :site "https://amankumar.ai/"
+  :about "https://amankumar.ai/about"
+  :blog "https://amankumar.ai/blogs"
+  :hnuid "onlyoneaman"
+  :bio "Full-stack AI engineer. Turns fuzzy ideas into live products quickly.")
+
  (:name "Alex Narayan"
   :site "https://gigatexal.blog/"
   :about "https://gigatexal.blog/pages/about/about.html"
