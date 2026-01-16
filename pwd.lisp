@@ -63,7 +63,7 @@
   :feed "https://antoniosarro.dev/rss.xml"
   :about "https://antoniosarro.dev/about/"
   :hnuid "antoniosarro"
-  :bio "Software Eng. I love homelabs and write blog articles about it.")
+  :bio "Software Eng.  I love homelabs and write blog articles about it.")
 
  (:name "Artyom Bologov"
   :site "https://aartaka.me/"
