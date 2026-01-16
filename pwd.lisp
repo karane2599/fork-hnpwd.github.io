@@ -321,7 +321,7 @@
   :bio "Mobile developer.  Writes both work and personal stuff.")
 
  (:name "Lei Wang"
-  :site "https://blog.leiw.ai/"
+  :site "https://leiw.ai/"
   :blog "https://blog.leiw.ai/"
   :feed "https://blog.leiw.ai/feed.xml"
   :about "https://blog.leiw.ai/about/"
