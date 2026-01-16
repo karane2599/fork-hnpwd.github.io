@@ -34,7 +34,7 @@
   :about "https://tiniuc.com/about-me/"
   :hnuid "tiniuclx"
   :bio "Embedded software engineer, musician and game developer.")
- 
+
  (:name "Andrew Montalenti"
   :site "https://amontalenti.com/"
   :feed "https://amontalenti.com/feed"
@@ -180,12 +180,12 @@
   :bio "Writes about machine learning, quantum computing and product management.")
 
  (:name "Ivar Abrahamsen"
-  :site "https://flurdy.com"
-  :blog "https://blog.flurdy.com"
+  :site "https://flurdy.com/"
+  :blog "https://blog.flurdy.com/"
   :feed "https://blog.flurdy.com/feed.xml"
   :about "https://blog.flurdy.com/about/"
   :hnuid "flurdy"
-  :bio "Opinionated software engineer/architect/manager.")
+  :bio "Opinionated software engineer, architect and manager.")
 
  (:name "Jeff Geerling"
   :site "https://www.jeffgeerling.com/"
