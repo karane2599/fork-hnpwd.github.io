@@ -29,6 +29,13 @@
         (when (position #\& bio)
           (push (fstr "~a: Bio must not contain ampersand (&)"
                       (getf item :name)) errors))
+        (when (position #\| bio)
+          (push (fstr "~a: Bio must not contain vertical bar (|)"
+                      (getf item :name)) errors))
+        (when (or (string-starts-with-p "ex-" (string-downcase bio))
+                  (search " ex-" (string-downcase bio)))
+          (push (fstr "~a: Bio must not contain 'ex-'"
+                      (getf item :name)) errors))
         (when (char/= (char bio (1- (length bio))) #\.)
           (push (fstr "~a: Bio must end with a full stop (period)"
                       (getf item :name)) errors))

@@ -372,7 +372,7 @@
   :feed "https://blog.gingerbeardman.com/feed.xml"
   :about "https://blog.gingerbeardman.com/about/"
   :hnuid "msephton"
-  :bio "Game and App developer | GOTY 2023 | ex-Apple.")
+  :bio "Game and app developer.  Featured in Ars Technica best games of 2023.")
 
  (:name "Matt Shams"
   :site "https://mattshams.com/"

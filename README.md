@@ -73,14 +73,33 @@ creating a pull request, please follow these guidelines:
 
  1. Keep all website entries sorted alphabetically by name.
 
- 2. Ensure that the bio text does not exceed 80 characters.
+ 2. Write the bio text in the third person.  That is, do not write:
 
- 3. End the bio text with a full stop (period).
+    ```
+    I write about functional programming.
+    ```
 
- 4. Do not use ampersand ('&') in the bio text.  Write the word 'and'
+    Instead, write about:
+
+    ```
+    Writes about functional programming.
+    ```
+
+    The intention is to reflect that the curators are adding your
+    website to this project.  Although you are the one authoring the
+    pull request, it is intended to help the curators include your
+    website more quickly.  Therefore, the language should match what
+    the curators would have written if they were adding the website
+    themselves.
+
+ 3. Ensure that the bio text does not exceed 80 characters.
+
+ 4. End the bio text with a full stop (period).
+
+ 5. Do not use ampersand ('&') in the bio text.  Write the word 'and'
     instead.
 
- 5. Do not use Oxford comma (serial comma) in the bio text.  That is,
+ 6. Do not use Oxford comma (serial comma) in the bio text.  That is,
     do not write:
 
     ```
@@ -93,7 +112,7 @@ creating a pull request, please follow these guidelines:
     Writes about C, C++ and Go.
     ```
 
- 6. Separate two sentences by double spaces.  That is, do not write:
+ 7. Separate two sentences by double spaces.  That is, do not write:
 
     ```
     Game developer. Writes about computer graphics.
@@ -105,14 +124,14 @@ creating a pull request, please follow these guidelines:
     Game developer.  Writes about computer graphics.
     ```
 
- 7. Begin URLs with `http://` or `https://`.
+ 8. Begin URLs with `http://` or `https://`.
 
- 8. If a URL points to the root directory, include the trailing slash.
+ 9. If a URL points to the root directory, include the trailing slash.
     For example, write `https://example.com/` (not
     `https://example.com`).  This avoids an extra redirect for many
     clients.
 
- 9. If certain information is not available or should not be included,
+10. If certain information is not available or should not be included,
     remove the corresponding property entirely.  For example, if no
     'about' link exists, delete the entire `:about` line from the
     entry.

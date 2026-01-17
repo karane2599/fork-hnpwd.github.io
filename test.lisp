@@ -145,6 +145,11 @@
   (assert (=  (length (validate-bio-basic '((:bio "foo, bar & baz.")))) 1))
   ;; 1 error: Ampersand not allowed.
   (assert (=  (length (validate-bio-basic '((:bio "foo, bar & baz.")))) 1))
+  ;; 1 error: Vertical bar not allowed.
+  (assert (=  (length (validate-bio-basic '((:bio "foo | bar | baz.")))) 1))
+  ;; 1 error each: 'ex-' not allowed.
+  (assert (=  (length (validate-bio-basic '((:bio "ex-Foo.")))) 1))
+  (assert (=  (length (validate-bio-basic '((:bio "Foo ex-Boo.")))) 1))
   ;; 1 error: Full stop missing.
   (assert (=  (length (validate-bio-basic '((:bio "foo, bar and baz")))) 1))
   ;; 1 error: Oxford comma not allowed.
