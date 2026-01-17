@@ -1,9 +1,10 @@
 hnpwd.github.io
 ===============
 
-This repository services the [hnpwd.github.io][web].
+This repository serves the HN Personal Websites Directory at
+[hnpwd.github.io][web].
 
-If you want to add your website to this directory, please go to
+If you want to add your website to our directory, please go to
 [github.com/hnpwd/hnpwd][src] instead and follow the instructions
 there.
 
