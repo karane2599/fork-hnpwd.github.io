@@ -31,21 +31,33 @@ Add Your Website
 
 ### Criteria
 
-Please check whether a website meets the following criteria before
-requesting its inclusion in the directory:
+Please check whether a website meets **all** of the following criteria
+before requesting its inclusion in the directory:
 
- 1. The website must be a personal website, where the author of the
-    website has full control of its design and content.  Websites
-    hosted on personal domains clearly qualify.  Websites hosted on
-    services such as Neocities, GitHub Pages or Codeberg Pages also
-    qualify, as these platforms allow full control over the site's
+ 1. **Author-Controlled Website**
+
+    The website must be a personal website where the author has full
+    control over its design, content and presentation.  This includes
+    control over layout, styling and monetisation.  Websites hosted on
+    platforms that may inject advertisements, branding or other
+    third-party content, or that otherwise limit the author's control
+    over design or presentation, do not meet this criterion.
+
+    Websites hosted on personal domains clearly qualify.  Websites
+    hosted on services such as Neocities, GitHub Pages or Codeberg Pages
+    also qualify, as these platforms allow full control over the site's
     design.  However, blogs hosted on publishing platforms such as
     Medium or Substack do not qualify.
 
- 2. The website must contain substantive content such as articles,
+    Note: This requirement is about control, not quality.  Many
+    excellent blogs fall outside the scope of this directory.
+
+ 2. **Substantive Personal Content**
+
+    The website must contain substantive content such as articles,
     blog posts, projects or games developed by the author.  Websites
     that consist only of a CV or portfolio are not suitable for
-    inclusion in our directory.  This requirement helps keep the
+    inclusion in this directory.  This requirement helps keep the
     directory interesting and meaningful, and prevents it from
     becoming a collection of minimal or placeholder websites with
     little value to the community.
