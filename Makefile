@@ -37,3 +37,7 @@ cb:
 	git remote add cb git@codeberg.org:hnpwd/pages.git
 	git push cb main
 	git push cb --tags
+
+sshkey:
+	ssh-keygen -t ed25519 -f ghcd
+	mv ghcd ghcd.key
