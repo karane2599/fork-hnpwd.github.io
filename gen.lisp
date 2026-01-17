@@ -42,7 +42,7 @@
     (format s "</opml>~%")))
 
 (defun make-site-link (url)
-  (fstr "<a href=\"~a\">~a</a>" url (parse-host url)))
+  (fstr "<a href=\"~a\">~a</a>" url (parse-short-domain url)))
 
 (defun make-nav-link (href text)
   "Create an HTML link."

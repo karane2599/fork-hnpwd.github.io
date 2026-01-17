@@ -60,7 +60,7 @@
   :bio "Embedded software engineer, musician and game developer.")
 
  (:name "Alexander Antsiferov"
-  :site "https://antsiferov.me/"
+  :site "https://yak.supplies/"
   :blog "https://blog.yak.supplies/"
   :hnuid "wttr"
   :bio "An IT sales/project manager turned web developer.")
@@ -270,7 +270,6 @@
   :site "https://jgc.org/"
   :blog "https://blog.jgc.org/"
   :feed "https://blog.jgc.org/feeds/posts/default"
-  :about "https://en.wikipedia.org/wiki/John_Graham-Cumming"
   :hnuid "jgc"
   :bio "Original writer of POPFile.  Member of the board of directors at Cloudflare.")
 
@@ -370,8 +369,7 @@
   :bio "Mobile developer.  Writes both work and personal stuff.")
 
  (:name "Lorenzo Gravina"
-  :site "https://lorenzogravina.com/"
-  :blog "https://trms.me/"
+  :site "https://trms.me/"
   :feed "https://trms.me/feed/"
   :hnuid "trms"
   :bio "Product manager.  Writes about knowledge management and random hobbies.")
@@ -492,8 +490,8 @@
 
  (:name "Philip I. Thomas"
   :site "https://philipithomas.com/"
-  :blog "https://contraption.co/"
-  :feed "https://contraption.co/rss/"
+  :blog "https://www.philipithomas.com/posts"
+  :feed "https://www.philipithomas.com/posts.rss"
   :hnuid "philip1209"
   :bio "Writes about crafting digital tools.")
 

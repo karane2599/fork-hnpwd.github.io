@@ -69,10 +69,14 @@
           (weekday-name day) date (month-name month) year
           hour minute second)))
 
-(defun parse-host (url)
-  "Extract the domain name from the given URL."
-  (let* ((host-start (+ (search "://" url) 3))
-         (host-end (position #\/ url :start host-start))
-         (host (subseq url host-start host-end)))
+(defun parse-domain (url)
+  "Extract domain name from the given URL."
+  (let* ((start (+ (search "://" url) 3))
+         (end (position #\/ url :start start)))
+    (subseq url start end)))
+
+(defun parse-short-domain (url)
+  "Extract a neat domain name from the given URL."
+  (let* ((host (parse-domain url)))
     (setf host (string-trim-prefix "www." host))
     (setf host (string-trim-prefix "blog." host))))

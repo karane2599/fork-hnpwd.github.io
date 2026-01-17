@@ -93,7 +93,7 @@
                     (getf item :about)
                     (getf item :now))))
 
-(defun validate-urls (items)
+(defun validate-url-formats (items)
   "Check that root URLs have a trailing slash."
   (let ((errors))
     (dolist (item items)
@@ -105,6 +105,19 @@
         (when (< (count #\/ url) 3)
           (push (fstr "~a <~a>: URL must have at least three slashes"
                       (getf item :name) url) errors))))
+    (reverse errors)))
+
+(defun validate-url-domains (items)
+  "Check that all specified URLs belong to the same domain."
+  (let ((errors))
+    (dolist (item items)
+      (dolist (url (pick-urls item))
+        (let ((short-domain (parse-short-domain (getf item :site)))
+              (full-domain (parse-domain url)))
+          (unless (or (string= short-domain full-domain)
+                      (search (fstr ".~a" short-domain) full-domain))
+            (push (fstr "~a <~a>: URL must belong to domain '~a'"
+                        (getf item :name) url short-domain) errors)))))
     (reverse errors)))
 
 (defun validate-unique-urls (items)
@@ -140,7 +153,8 @@
 (defun validate (items)
   "Run all validations."
   (let ((errors (append (validate-name-order items)
-                        (validate-urls items)
+                        (validate-url-formats items)
+                        (validate-url-domains items)
                         (validate-unique-urls items)
                         (validate-bio-basic items)
                         (validate-bio-person items)

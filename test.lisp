@@ -115,13 +115,23 @@
   (assert (string= (format-date (encode-universal-time 0 0 0 14 1 2026 -11/2))
                    "Tue, 13 Jan 2026 18:30:00 UTC")))
 
-(test-case parse-host
-  (assert (string= (parse-host "https://foo/") "foo"))
-  (assert (string= (parse-host "https://foo/bar") "foo"))
-  (assert (string= (parse-host "https://foo/bar/") "foo"))
-  (assert (string= (parse-host "https://example.com/") "example.com"))
-  (assert (string= (parse-host "https://www.example.com/") "example.com"))
-  (assert (string= (parse-host "https://www.example.com/bar/") "example.com")))
+(test-case parse-domain
+  (assert (string= (parse-domain "https://foo/") "foo"))
+  (assert (string= (parse-domain "https://foo/bar") "foo"))
+  (assert (string= (parse-domain "https://foo/bar/") "foo"))
+  (assert (string= (parse-domain "https://example.com/") "example.com"))
+  (assert (string= (parse-domain "https://www.example.com/") "www.example.com"))
+  (assert (string= (parse-domain "https://www.example.com/bar/") "www.example.com"))
+  (assert (string= (parse-domain "https://blog.example.com/bar/") "blog.example.com")))
+
+(test-case parse-short-domain
+  (assert (string= (parse-short-domain "https://foo/") "foo"))
+  (assert (string= (parse-short-domain "https://foo/bar") "foo"))
+  (assert (string= (parse-short-domain "https://foo/bar/") "foo"))
+  (assert (string= (parse-short-domain "https://example.com/") "example.com"))
+  (assert (string= (parse-short-domain "https://www.example.com/") "example.com"))
+  (assert (string= (parse-short-domain "https://www.example.com/bar/") "example.com"))
+  (assert (string= (parse-short-domain "https://blog.example.com/bar/") "example.com")))
 
 (test-case validate-name-order
   (assert (=  (length (validate-name-order '((:name "Alice")))) 0))
@@ -183,26 +193,46 @@
                                              (:bio "Foo. Bar. Baz.")))) 2)))
 
 (test-case validate-urls-protocol
-  (assert (= (length (validate-urls '((:site "example/foo/bar/baz/")))) 1))
-  (assert (= (length (validate-urls '((:site "www.example.com")))) 2)))
+  (assert (= (length (validate-url-formats '((:site "example/foo/bar/baz/")))) 1))
+  (assert (= (length (validate-url-formats '((:site "www.example.com")))) 2)))
 
 (test-case validate-urls-slashes
-  (assert (= (length (validate-urls '((:site "http://site/")))) 0))
-  (assert (= (length (validate-urls '((:site "http://site")))) 1))
-  (assert (= (length (validate-urls '((:blog "http://blog")))) 1))
-  (assert (= (length (validate-urls '((:feed "http://feed")))) 1))
-  (assert (= (length (validate-urls '((:about "http://about")))) 1))
-  (assert (= (length (validate-urls '((:now "http://now")))) 1))
-  (assert (= (length (validate-urls '((:site "http://site/"
-                                       :blog "http://blog/"
-                                       :feed "http://feed/"
-                                       :about "http://about/"
-                                       :now "http://now/")))) 0))
-  (assert (= (length (validate-urls '((:site "http://site"
-                                       :blog "http://blog"
-                                       :feed "http://feed"
-                                       :about "http://about"
-                                       :now "http://now")))) 5)))
+  (assert (= (length (validate-url-formats '((:site "http://site/")))) 0))
+  (assert (= (length (validate-url-formats '((:site "http://site")))) 1))
+  (assert (= (length (validate-url-formats '((:blog "http://blog")))) 1))
+  (assert (= (length (validate-url-formats '((:feed "http://feed")))) 1))
+  (assert (= (length (validate-url-formats '((:about "http://about")))) 1))
+  (assert (= (length (validate-url-formats '((:now "http://now")))) 1))
+  (assert (= (length (validate-url-formats '((:site "http://site/"
+                                              :blog "http://blog/"
+                                              :feed "http://feed/"
+                                              :about "http://about/"
+                                              :now "http://now/")))) 0))
+  (assert (= (length (validate-url-formats '((:site "http://site"
+                                              :blog "http://blog"
+                                              :feed "http://feed"
+                                              :about "http://about"
+                                              :now "http://now")))) 5)))
+
+(test-case validate-urls-domains
+  (assert (= (length (validate-url-domains '((:site "http://example/site/"
+                                              :blog "http://example/blog/"
+                                              :feed "http://example/feed/"
+                                              :about "http://example/about/"
+                                              :now "http://example/now/")))) 0))
+  (assert (= (length (validate-url-domains '((:site "http://example/site/"
+                                              :blog "http://coexample/")))) 1))
+  (assert (= (length (validate-url-domains '((:site "http://example/site/"
+                                              :feed "http://coexample/")))) 1))
+  (assert (= (length (validate-url-domains '((:site "http://example/site/"
+                                              :about "http://coexample/")))) 1))
+  (assert (= (length (validate-url-domains '((:site "http://example/site/"
+                                              :now "http://coexample/")))) 1))
+  (assert (= (length (validate-url-domains '((:site "http://example/site/"
+                                              :blog "http://example.co/blog/"
+                                              :feed "http://co.example/feed/"
+                                              :about "http://coexample/about/"
+                                              :now "http://exampleco/now/")))) 3)))
 
 (test-case validate-unique-urls
   (assert (= (length (validate-unique-urls '((:site "http://site/")))) 0))
