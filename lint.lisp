@@ -1,6 +1,7 @@
 ;;;; HNPWD Linter
 ;;;; ============
 
+(require "uiop")
 (load "util.lisp")
 
 (defun validate-name-order (items)
