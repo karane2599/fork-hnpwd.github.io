@@ -280,6 +280,12 @@
   :hnuid "jgc"
   :bio "Original writer of POPFile.  Member of the board of directors at Cloudflare.")
 
+ (:name "John Lampard"
+  :site "https://disassociated.com/"
+  :feed "https://disassociated.com/feed/"
+  :about "https://disassociated.com/about/"
+  :bio "Former web designer turned writer and blogger, based in Australia.")
+
  (:name "John Zanussi"
   :site "https://johnzanussi.com/"
   :blog "https://johnzanussi.com/posts"
