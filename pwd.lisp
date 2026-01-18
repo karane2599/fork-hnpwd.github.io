@@ -259,7 +259,6 @@
   :hnuid "DustinBrett"
   :bio "Self-taught software engineer, traveler, father and husband.")
 
-
  (:name "Ed Thomas"
   :site "https://ed-thomas.dev/"
   :blog "https://ed-thomas.dev/blog/"
@@ -267,6 +266,13 @@
   :now "https://ed-thomas.dev/now/"
   :hnuid "pixel87"
   :bio "Comp Sci student, making things.")
+
+ (:name "Embedding Shapes"
+  :site "https://embedding-shapes.github.io/"
+  :blog "https://embedding-shapes.github.io/posts/"
+  :about "https://embedding-shapes.github.io/about/"
+  :hnuid "embedding-shape"
+  :bio "Multi-disciplined software developer.  Polymath.")
 
  (:name "Emma Goto"
   :site "https://www.emgoto.com/"
