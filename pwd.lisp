@@ -262,6 +262,14 @@
   :hnuid "emgoto"
   :bio "Software engineer living in Tokyo.  Writes about hiking, books and code.")
 
+ (:name "Gavin Anderegg"
+  :site "https://anderegg.ca/"
+  :blog "https://anderegg.ca/archives/"
+  :feed "https://anderegg.ca/feed.xml"
+  :about "https://anderegg.ca/about/"
+  :hnuid "GavinAnderegg"
+  :bio "Freelance software developer and project manager")
+
  (:name "Gavin D. Howard"
   :site "https://gavinhoward.com/"
   :feed "https://gavinhoward.com/index.xml"
