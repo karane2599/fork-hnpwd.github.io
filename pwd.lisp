@@ -319,6 +319,12 @@
   :hnuid "drshapeless"
   :bio "Health professional who is very into programming, Emacs and game development.")
 
+ (:name "Jamie Tanna"
+  :site "https://www.jvt.me/"
+  :blog "https://www.jvt.me/kind/articles/"
+  :hnuid "jamietanna"
+  :bio "Self-documenting software engineer + Open Source maintainer of Renovate and oapi-codegen")
+
  (:name "Jeff Geerling"
   :site "https://www.jeffgeerling.com/"
   :feed "https://www.jeffgeerling.com/blog.xml"
