@@ -558,9 +558,9 @@
   :site "https://ninkovic.dev/"
   :blog "https://ninkovic.dev/blog/"
   :feed "https://ninkovic.dev/rss.xml"
-  :about "https://ninkovic.dev/"
+  :about "https://ninkovic.dev/contact/"
   :hnuid "nemwiz"
-  :bio "Writes about practical implementation of AI technologies. Leads engineering teams and builds AI products.")
+  :bio "Writes about practical implementation of AI.  Leads engineering teams.")
 
  (:name "Nic Chan"
   :site "https://www.nicchan.me/"
