@@ -268,7 +268,7 @@
   :feed "https://anderegg.ca/feed.xml"
   :about "https://anderegg.ca/about/"
   :hnuid "GavinAnderegg"
-  :bio "Freelance software developer and project manager")
+  :bio "Freelance software developer and project manager.")
 
  (:name "Gavin D. Howard"
   :site "https://gavinhoward.com/"
