@@ -40,7 +40,16 @@ before requesting its inclusion in the directory:
     company website or a community website.  The website should belong
     to an individual.
 
- 2. **Author-Controlled Website**
+ 2. **English Language Website**
+
+    HN is an English-language forum, so this directory includes only
+    websites with English-language content.  Websites may also contain
+    content in other languages, provided they have a significant
+    amount of English content and visitors can easily find and
+    navigate to it.  Websites that are entirely or primarily
+    non-English are not suitable for inclusion in this directory.
+
+ 2.  **Author-Controlled Website**
 
     The website must be a personal website where the author has full
     control over its design, content and presentation.  This includes
@@ -60,7 +69,7 @@ before requesting its inclusion in the directory:
     Note: This requirement is about control, not quality.  Many
     excellent blogs fall outside the scope of this directory.
 
- 2. **Substantive Personal Content**
+ 3. **Substantive Personal Content**
 
     The website must contain substantive content such as articles,
     blog posts, projects or games developed by the author.  Websites
@@ -69,6 +78,17 @@ before requesting its inclusion in the directory:
     directory interesting and meaningful, and prevents it from
     becoming a collection of minimal or placeholder websites with
     little value to the community.
+
+    Websites with only a small number of pages or articles are usually
+    not included immediately.  However, they are not rejected
+    outright.  Instead, we wait until more content is added before
+    considering them for inclusion in the directory.  As a general
+    guideline, we expect around 10 articles to be present before a
+    website is eligible.  Exceptions may be made in some cases, for
+    example when a site has only a few posts but one or more of them
+    have been very well received on HN.  This requirement helps ensure
+    that visitors arriving from the directory will find enough
+    interesting content to explore.
 
 
 ### Add via PR
