@@ -416,6 +416,15 @@
   :about "https://xnacly.me/about/"
   :hnuid "xnacly"
   :bio "Writes about compilers and hardware.  Contributes to open source software.")
+ 
+(:name "Matthew Brunelle"
+  :site "https://blog.matthewbrunelle.com/"
+  :blog "https://blog.matthewbrunelle.com/"
+  :feed "https://blog.matthewbrunelle.com/feed/"
+  :about "https://blog.matthewbrunelle.com/about/"
+  :now "https://blog.matthewbrunelle.com/now/"
+  :hnuid "ciferkey"
+  :bio "I write about a variety of projects, events and thoughts, but they all share one aspect: I learned something and want to share my experience with others.")
 
  (:name "Mike Cardwell"
   :site "https://www.grepular.com/"
