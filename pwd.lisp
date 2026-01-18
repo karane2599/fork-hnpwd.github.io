@@ -601,7 +601,7 @@
   :feed "https://www.rasikjain.com/index.xml"
   :about "https://www.rasikjain.com/about/"
   :hnuid "rasikjain"
-  :bio "Software engineer specializing in AI/ML, building secure, scalable apps.")
+  :bio "Software engineer specializing in AI and ML.  Building secure, scalable apps.")
 
  (:name "Rhys Johns"
   :site "https://spikepuppet.io/"
