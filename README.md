@@ -54,8 +54,8 @@ before requesting its inclusion in the directory:
     hosted on services such as Neocities, GitHub Pages or Codeberg
     Pages also qualify, as these platforms allow full control over the
     site's design.  However, blogs hosted on publishing platforms such
-    as Medium, Substack or the free WordPress.com service do not
-    qualify.
+    as Medium, Substack, Blogspot, the free WordPress.com service,
+    etc. do not qualify.
 
     Note: This requirement is about control, not quality.  Many
     excellent blogs fall outside the scope of this directory.
