@@ -257,6 +257,12 @@ FAQ
     after asking, as not all volunteers are present at all hours of
     the day.
 
+ 5. On the directory website, how is the order of personal websites
+    decided?
+
+    The websites are displayed in a pseudorandom order.  This order
+    changes every hour.
+
 [outcoldman]: https://github.com/outcoldman/hackernews-personal-blogs
 [hnt]: https://news.ycombinator.com/item?id=46618714
 [backlog-repo]: https://github.com/hnpwd/backlog

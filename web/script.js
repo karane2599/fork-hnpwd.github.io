@@ -1,9 +1,17 @@
+function srand (seed) {
+  let x = seed
+  return function () {
+    x = (1664525 * x + 1013904223) % 4294967296
+    return x
+  }
+}
+
 function shuffle (items) {
-  console.log(items)
+  const rand = srand(Math.floor(Date.now() / 1000 / 3600))
   items = items.slice()
   for (let n = items.length - 1; n >= 1; n--) {
-    const m = Math.floor(Math.random() * (n + 1));
-    [items[m], items[n]] = [items[n], items[m]]
+    let m = rand() % n
+    ;[items[m], items[n]] = [items[n], items[m]]
   }
   return items
 }
