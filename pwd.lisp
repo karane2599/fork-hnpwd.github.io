@@ -727,7 +727,7 @@
   :bio "CTO.  Writes about engineering, leadership and personal experiences.")
 
  (:name "Patrick Hough"
-  :site "https://huffstler.github.io"
+  :site "https://huffstler.github.io/"
   :blog "https://huffstler.github.io/blog/"
   :feed "https://huffstler.github.io/blog/atom.xml"
   :hnuid "huffstler"
