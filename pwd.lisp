@@ -726,6 +726,13 @@
   :hnuid "obahareth"
   :bio "CTO.  Writes about engineering, leadership and personal experiences.")
 
+ (:name "Patrick Hough"
+  :site "https://huffstler.github.io"
+  :blog "https://huffstler.github.io/blog/"
+  :feed "https://huffstler.github.io/blog/atom.xml"
+  :hnuid "huffstler"
+  :bio "App Dev Manager.  Writes mostly about daily life stuff and personal interests.")
+
  (:name "Peter Bengtsson"
   :site "https://www.peterbe.com/"
   :feed "https://www.peterbe.com/rss.xml"
