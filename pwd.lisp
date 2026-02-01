@@ -998,7 +998,7 @@
   :hnuid "mundanevoice"
   :bio "Principal engineer and Django CMS Fellow.  Writes about Python, Go and systems.")
 
- (:name "WillAbides"
+ (:name "Will Roden"
   :site "https://willabides.com/"
   :feed "https://willabides.com/index.xml"
   :hnuid "WillAbides"
