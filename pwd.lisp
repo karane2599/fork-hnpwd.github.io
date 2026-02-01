@@ -836,6 +836,14 @@
   :hnuid "rkallos"
   :bio "Canadian Elixir developer.  Writes about coding and living.")
 
+ (:name "Rob Schmidt"
+  :site "https://staticnotes.org/"
+  :blog "https://staticnotes.org/posts/"
+  :feed "https://staticnotes.org/feed.xml"
+  :about "https://staticnotes.org/about/"
+  :hnuid "robschmidt90"
+  :bio "Writes about working with data.")
+
  (:name "Robert Ismo"
   :site "https://robertismo.com/"
   :feed "https://robertismo.com/index.xml"
